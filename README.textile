@@ -1,3 +1,16 @@
-These are wrappers for some of the various apis that expose government information.
+These are wrappers for some of the various apis that expose government information. 
 
 They are created using "HTTParty":http://httparty.rubyforge.org/, which is awesome.
+
+h1. GOP
+
+This API is flaky, to say the least. The method calls don't work consistently.
+
+h1. New York Times
+
+New York Times has a congressional API. It's documented here: http://developer.nytimes.com/docs/congress_api
+
+These wrappers are not complete, the New York Times one in particular really needs to have a cleaner API rather than just mapping directly to the API methods.
+
+These wrappers stem from a blog post I wrote on the topic of government data exposed via web services: http://larrywright.me/blog/articles/213-towards-a-more-open-government
+
